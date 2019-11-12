@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <!--Link Style-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu_style.css">
+    <!-- <style type="text/css">-->
+        <style type="text/css">
+            .my-input {
+            margin-top: 5px;
+            width: 400px;
+            height: 300px;
+            }
+            .gr-in{
+                margin-left: 5px;
+                width:205px;
+            }
+            </style>
+    <!--Link Bootstrap-->
+    <link href="../bootstrap/bootstrap-grid.css" rel="stylesheet">
+    <link href="../bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Link Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline&display=swap" rel="stylesheet">
+    <title>IU3-KF</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- <div class="container ">
+        <div class="row justify-content-md-left">
+            <div class="col-md-auto">
+                <p><strong>Hello_HEX</strong></p>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    <h1 class="text-md-center logo "><strong>BAUMAN_HUB</strong></h1>
+
+    <nav>
+        <ul class="topmenu">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="../section.html" class="now-menu">Разделы</a>
+                <ul class="submenu">
+                    <li><a href="">Каф. Физики </a></li>
+                    <li><a href="">Каф. Математики</a></li>
+                    <li><a href="IT.html" class="now-menu">Каф. ИТД</a></li>
+                </ul>
+            </li>
+            <li><a href="../404.html">Форум</a>
+                <ul class="submenu">
+                    <li><a href="">Физика</a></li>
+                    <li><a href="">Информатика</a></li>
+                    <li><a href="">Графика</a></li>
+                    <li><a href="">Математика</a></li>
+                </ul>
+            </li>
+            <li><a href="../PressF.html">Поддержать проект</a></li>
+        </ul>
+    </nav>
+
+    <!--STAROSTA-->
+
+    <div class="container">
+
+        <div class="row justify-content-lg-center">
+            <h3>SMM</h3>
+            <div class="col-md-auto">
+                <form action="SMS.php" method="GET">
+                    <input name="gr" list="group" placeholder="Группа (пр. ИТДб-51)" >
+                    <datalist id="group">
+                        <option value="89534647867"></option>                        
+                    </datalist>
+                    <input name='them' type="text" placeholder="Тема сообщения" class="gr-in">
+                    <br>
+                    <input name="msg" type="text" placeholder="Текст сообщения" class="my-input">
+                    <br>
+                    <div>
+                        <h7>SMM</h7>
+                        <input type="checkbox" checked name="SMM">
+                        <h7>SMPT</h7>
+                        <input type="checkbox" checked name="SMPT">
+                    </div>
+                    <br>
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
+            <!-- <div class="row justify-content-lg-center">
+                    <h3>SMPT</h3>
+                    <div class="col-md-auto">
+                        <form action="SMS.php" method="GET">
+                            <input name='them' type="text" placeholder="Тема сообщения">
+                            <br>
+                            <input name="msg" type="text" placeholder="Текст сообщения" height="50" />
+                            <br>
+                            <input type="submit" value="Отправить">
+                        </form>
+                    </div> -->
+        </div>
+    </div>
+
+
+
+
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js'></script>
+
+    <script src="../slider/js/index.js"></script>
+    <script src="js/scroll_anim.js"></script>
+
+
+
+</body>
+<!-- <footer>
+    <h1>Разработано бедным студентом</h1>
+</footer> -->
+
+</html>

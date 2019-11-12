@@ -1,0 +1,32 @@
+/* #thefile {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+  } */
+  
+  #canvas {
+    z-index: 20;
+    /* left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%; */
+    /* width:  1000px; */
+    left: 10px;
+    bottom: 10px; 
+    box-sizing: content-box;
+    max-height: 500px;
+    max-width: 500px;
+    background: rgba(red, green, blue, 0);
+  }
+  
+  /* audio {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+  } */
+
+.but{
+    width: 20px;
+}

@@ -1,0 +1,27 @@
+body{
+
+    background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  margin:auto;
+    
+}
+p{
+    color:  white;
+}
+li{
+    color: white;
+}
+.lol{
+    font-family: 'Raleway',sans-serif;
+    font-size:large;
+    background-image:  url('https://sun9-14.userapi.com/c830109/v830109134/1a8ddd/YhRVfdKM0I4.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 5em;
+    
+    /* width:1000px;
+    height:1000px;
+    position:absolute;
+    left:30%;
+    top:50%;
+    margin:-100px 0 0 -150px; */
+}

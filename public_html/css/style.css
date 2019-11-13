@@ -198,6 +198,10 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
   background-image:  'https://avante.biz/wp-content/uploads/Planet-Wallpaper/Planet-Wallpaper-063.jpg';
 }
 
+.video{
+  padding-bottom: 50px;
+}
+
 /*--------------------------------------------------------------------------*/
 .slider {
     overflow: hidden;

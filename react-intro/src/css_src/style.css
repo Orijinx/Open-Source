@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Odibee+Sans&display=swap');
+body {
+    background: rgb(238, 174, 202);
+    background: -moz-radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca", endColorstr="#94bbe9", GradientType=1);
+}
+
+.logo {
+    justify-content: center;
+    font-family: 'Bungee Hairline', cursive;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+}
+
+.FlC {
+    justify-content: center;
+}

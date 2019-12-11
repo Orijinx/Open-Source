@@ -32,6 +32,9 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # Add your apps here to enable them
     'TEST',
+    'JinjaExample',
+    'feed',
+    'user_prof',
 
     #######################################
     'django.contrib.admin',

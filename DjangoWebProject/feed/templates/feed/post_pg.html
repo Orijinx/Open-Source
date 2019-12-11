@@ -1,0 +1,15 @@
+{% extends "public_html/inner.html" %}
+
+{%block content%}
+<div class="container post gradient-border" style="margin-bottom: 100px;">
+    <div class="row justify-content-center ">
+        <img src="{{articles.img_url}}" class="" />
+    </div>
+    <div class="post-brd">
+        <h2>{{articles.title}}</h2>
+    </div>
+    <div class="container">
+        <p>{{articles.about|safe|linebreaks}}</p>
+    </div>
+</div>
+{%endblock%}

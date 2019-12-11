@@ -22,6 +22,10 @@ from django.conf.urls import url, include
 
 urlpatterns = [
     # Uncomment the next line to enable the admin:
-    #url('admin/', admin.site.urls),
-    url(r'^',include('TEST.urls'))
+   url(r'^admin/', admin.site.urls),
+   # url(r'^$',include('TEST.urls')),
+   url(r'^',include('JinjaExample.urls')),
+   url(r'^feed/',include('feed.urls')),
+   url(r'^account/',include('user_prof.urls')),
+   #url(r'^index.html', include('JinjaExample.urls')),
 ]

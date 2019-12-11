@@ -3,6 +3,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>DjangoWebProject</Name>
     <RootNamespace>DjangoWebProject</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -29,6 +30,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="JinjaExample\admin.py" />
+    <Compile Include="JinjaExample\apps.py" />
+    <Compile Include="JinjaExample\migrations\__init__.py" />
+    <Compile Include="JinjaExample\models.py" />
+    <Compile Include="JinjaExample\tests.py" />
+    <Compile Include="JinjaExample\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JinjaExample\views.py" />
+    <Compile Include="JinjaExample\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProject\__init__.py" />
     <Compile Include="DjangoWebProject\settings.py" />
@@ -46,11 +57,15 @@
     <Compile Include="TEST\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TEST\index.html" />
     <Content Include="requirements.txt" />
+    <Content Include="TEST\style.css" />
     <Content Include="TEST\__pycache__\__init__.cpython-37.pyc" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DjangoWebProject\" />
+    <Folder Include="JinjaExample\" />
+    <Folder Include="JinjaExample\migrations\" />
     <Folder Include="TEST\" />
     <Folder Include="TEST\migrations\" />
     <Folder Include="TEST\__pycache__\" />

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <title>OUT_THE_ROOM &mdash; Путшествуй, выкладывай, получай</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {% load staticfiles %}
+
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+  <link rel="stylesheet" href="{% static 'css/style.css'%}">
+  <link rel="stylesheet" href="{% static 'css/style2.css'%}">
+  <link rel="stylesheet" href="{% static 'css/media.css'%}">
+  <script src="{% static 'js/bootstrap.min.js'%}"></script>
+  <script src="{%static 'js/script.js'%}"></script>
+
+
+
+  <!---------------------------------------------------->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a href="{%url 'index'%}">
+        <h1 class="text-center grad logo">OUT_THE_ROOM</h1>
+      </a>
+    </div>
+  </header>
+  {%block content%}
+  {%endblock%}
+  {%block post%}
+  {%endblock%}
+</body>
+
+</html>

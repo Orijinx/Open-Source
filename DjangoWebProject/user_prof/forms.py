@@ -1,17 +1,8 @@
 from django import forms
-from django.core.exceptions import ValidationError
-from feed.models import Articles
-class PostForm(forms.ModelForm):
-    class Meta:
-        model = Articles
-        field = [
-            'article',
-             'text'
-        ]
 
-# class CommentsForm(forms.Form):
-#     class Meta:
-#         model = Comments
-#         fields=[
-#             'comm'
-#         ]
+
+class add_post(forms.Form):
+    img_url = forms.CharField(max_length=200, label="URL изображения")
+    title = forms.CharField(max_length=100, label='Название')
+    about = forms.CharField(max_length=200, label='Описание')
+    tag = forms.CharField(max_length=50,label='Хэштег')

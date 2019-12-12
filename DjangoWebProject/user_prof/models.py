@@ -9,5 +9,5 @@ class Users(models.Model):
 
 
     def __str__(self):
-        return self.acc_img
+        return self.first_name
     

@@ -11,5 +11,11 @@
     <div class="container">
         <p>{{articles.about|safe|linebreaks}}</p>
     </div>
+    <div class="">
+        <h6><i>{{articles.tag|safe}}</i></h6>
+    </div>
+    <div class="text-right">
+        {{articles.date}}
+    </div>
 </div>
 {%endblock%}

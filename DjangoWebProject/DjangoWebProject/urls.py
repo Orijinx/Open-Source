@@ -27,5 +27,6 @@ urlpatterns = [
    url(r'^',include('JinjaExample.urls')),
    url(r'^feed/',include('feed.urls')),
    url(r'^account/',include('user_prof.urls')),
+   url(r'^micros/',include('micro.urls')),
    #url(r'^index.html', include('JinjaExample.urls')),
 ]

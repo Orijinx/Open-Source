@@ -156,23 +156,27 @@ body {
 
 .post {
     color: white;
-    background-color: #1D1F20;
-    
+    background:#1D1F20;
  
 }
 
 .post img {
+   
     width: 50%;
-    border: 2px solid crimson;
+    border: 2px solid whitesmoke;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
     margin-block-start: 50px;
+    margin-block-end: 50px; 
+    
+
 }
 
 .post h2 {
     margin-top: 20px;
     margin-left: 50px;
     color: whitesmoke;
+    
     /* background: linear-gradient(60deg, #f79533, #ef4e7b, #07b39b, #a166ab, #f37055, #5073b8, #1098ad, #6fba82);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
@@ -186,4 +190,7 @@ body {
     border-bottom: 2px solid whitesmoke;
     border-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
     border-image-slice: 1;
+}
+.post .qr{
+    border: white solid 3px;
 }

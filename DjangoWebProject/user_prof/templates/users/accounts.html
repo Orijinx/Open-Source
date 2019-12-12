@@ -1,11 +1,17 @@
 {% extends "public_html/inner.html" %}
-
 {%block content%}
-{%include "includes/user_form_log.html"%}
-
-
+<div class="container post gradient-border" style="margin-bottom: 100px;">
+    <div class="row justify-content-center">
+        <div class="col-md-auto">
+            <form action="" method="POST" style="margin-block-start: 20px;">
+                {% csrf_token %}
+                {% if error %}
+                {{ error }}
+                {% endif %}
+                {{ form.as_p }}
+                <input class="btn btn-light" type="submit" name="submit" value="Отправить" style="margin-bottom: 10px;" />
+            </form>
+        </div>
+    </div>
+</div>
 {%endblock%}
-
-
-
-

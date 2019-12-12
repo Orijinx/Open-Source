@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'JinjaExample',
     'feed',
     'user_prof',
+    'micro',
 
     #######################################
     'django.contrib.admin',

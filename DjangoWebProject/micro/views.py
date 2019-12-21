@@ -70,3 +70,7 @@ def qr_serv(request):
 #      else:
 #         context = {'form': form_deg}
 #         return render(request, 'includes/QR.html', context)
+
+
+def web_cam(request):
+    return render(request, 'includes/vidpot.html')

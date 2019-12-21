@@ -19,6 +19,9 @@ Including another URLconf
 # Uncomment next two lines to enable admin:
 from django.contrib import admin
 from django.conf.urls import url, include
+from django.urls import path
+
+
 
 urlpatterns = [
     # Uncomment the next line to enable the admin:
@@ -29,4 +32,6 @@ urlpatterns = [
    url(r'^account/',include('user_prof.urls')),
    url(r'^micros/',include('micro.urls')),
    #url(r'^index.html', include('JinjaExample.urls')),
+   path('api/', include('API.urls')),
+   #path('articles/<int:pk>', ArticleView.as_view()),
 ]

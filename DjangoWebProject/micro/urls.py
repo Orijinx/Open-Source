@@ -10,4 +10,5 @@ from .views import qr_serv
 urlpatterns = [
     url(r'^$', views.micro, name="micro"),
     url(r'^qr$', qr_serv, name='qr_serv'),
+    url(r'^webcam$',views.web_cam,name='web_cam'),
 ]
